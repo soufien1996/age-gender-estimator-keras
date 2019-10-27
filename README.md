@@ -9,7 +9,7 @@ Read the blog [here](https://medium.com/ymedialabs-innovation/estimating-age-and
 - dlib (for demo)
 - OpenCV3
 
-It has been tested on a machine running Ubuntu 16.04 with Python 3.5.2, Keras 2.1.2, Tensorflow(-gpu) 1.5.0, CUDA 9.0, cuDNN 7.0.
+It has been tested on a machine running Ubuntu 16.04 with Python 3.5.2, Keras 2.1.2, TensorFlow(-gpu) 1.5.0, CUDA 9.0, cuDNN 7.0.
 
 
 ## Usage
