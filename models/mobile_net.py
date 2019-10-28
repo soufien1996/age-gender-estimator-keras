@@ -9,7 +9,7 @@ from keras.layers import Dropout, Dense, GlobalAveragePooling2D
 class MobileNetDeepEstimator:
     def __init__(self, image_size, alpha, num_neu, weights=None):
 
-        if K.image_dim_ordering() == "th":
+        if K.common.image_dim_ordering() == "th":
             logging.debug("image_dim_ordering = 'th'")
             self._channel_axis = 1
             self._input_shape = (3, image_size, image_size)
